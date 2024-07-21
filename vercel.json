@@ -7,6 +7,16 @@
       "config": { "distDir": "dist" }
     }
   ],
+  "rewrites": [
+    {
+      "source": "/update1",
+      "destination": "/update1.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
   "cleanUrls": true,
   "trailingSlash": false
 }
